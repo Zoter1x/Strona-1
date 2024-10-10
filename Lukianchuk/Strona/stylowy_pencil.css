@@ -1,0 +1,41 @@
+main{
+    height: 100vh;
+    display: flex;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#right{
+    display: flex;
+    background-color: red;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+#left1{
+    background-color: black;
+    height: 200px;
+    color: white;
+    padding: 50px 0px;
+    align-content: center;
+    text-align: center;
+}
+
+#left2{
+    background-color: green;
+    height: 100%;
+    text-align: left;
+}
+
+html, body{
+    height: 100%;
+}
+
+#lista{
+    text-align: center;
+}
