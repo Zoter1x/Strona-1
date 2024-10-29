@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+
+.tato{
+    align-self: flex-start;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.syn{
+    align-self: center;
+}
+
+.tato:hover{
+    color: white;
+    border: 1px solid white;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
