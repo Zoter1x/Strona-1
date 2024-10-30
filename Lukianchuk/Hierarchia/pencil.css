@@ -1,0 +1,17 @@
+body{
+    background-color:burlywood;
+}
+
+.syn{
+    background-color: black;
+    color: white;
+}
+
+header .syn{
+    background-color: antiquewhite;
+    color: black;
+}
+main .syn{
+    background-color: bisque;
+    color: black;
+}
