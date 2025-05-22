@@ -1,0 +1,52 @@
+body{
+    font-family: Bookman, Serif;
+}
+header,footer{
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#napis{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: right;
+}
+#lewa,#prawa{
+    background-color: lavender;
+    height: 500px;
+}
+#lewa{
+    width: 25%;
+}
+#prawa{
+    width: 35%;
+}
+#srodek{
+    background-color: ghostwhite;
+    text-align: center;
+    height: 500px;
+    width: 40%;
+}
+img{
+    float: right;
+    text-align: left;
+}
+p{
+    color: white;
+    font-size: 150%;
+    font-style: italic;
+}
+table,form{
+    margin: 30px;
+}
+table,td{
+    border-collapse: collapse;
+    border: 1px solid indigo;
+}
+td,th{
+    padding: 3px;
+}
+#lista{
+    padding: 0;
+}
