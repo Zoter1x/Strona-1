@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Obuwie</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Obuwie męskie</h1>
+        </header>
+        <main>
+            <form method="post" action="zamow.html">
+                <label for="li_s">Model: </label>
+                <select name="li_s" class="kontrolki"></select>
+                <label for="lista">Rozmiar: </label>
+                <select name="lista" class="kontrolki">
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                </select>
+                <label for="par">Liczba par: </label>
+                <input type="number" name="par" class="kontrolki">
+                <input type="submit" value="Zamów" class="kontrolki">
+            </form>
+            <section onload="skrypt2()">
+
+            </section>
+        </main>
+        <footer>
+            <p>Autor strony: Dmytro Lukianchuk</p>
+        </footer>
+    </body>
+</html>

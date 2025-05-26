@@ -1,0 +1,19 @@
+*{
+    font-family: Cambria;
+}
+header,footer{
+    background-color: Sienna;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+main{
+    background-color: antiquewhite;
+    height: 700px;
+    font-size: 120%;
+    overflow: auto;
+}
+.kontrolki{
+    width: 150px;
+    margin: 10px;
+}
