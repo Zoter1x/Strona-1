@@ -1,0 +1,45 @@
+*{
+    font-family: Tahoma;
+}
+body{
+    background-color: #FB8E02;
+}
+main{
+    background-color: #AEC6E6;
+    width: 80%;
+    height: 450px;
+    overflow: auto;
+}
+footer{
+    padding: 2px;
+    text-align: right;
+}
+img{
+    width: 100%;
+}
+h1{
+    color: maroon;
+    padding: 50px;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    background-color: #FB8E02;
+    width: 95%;
+    padding: 5px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color:#232323;
+    font-size: 110%;
+}
+li:hover{
+    background-color: #B36501;
+}
+nav{
+    width: 20%;
+    height: 450px;
+    background-color: #232323;
+}
