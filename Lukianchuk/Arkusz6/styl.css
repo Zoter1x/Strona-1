@@ -1,0 +1,39 @@
+body{
+    font-family: Georgia;
+    color: white;
+}
+header,footer{
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+#lewy, #centrum{
+    width: 30%;
+    height: 350px;
+}
+#prawy{
+    background-color: #A26470;
+    width: 40%;
+    height: 350px;
+    overflow:auto;
+}
+#centrum{
+    background-color: #824555;
+}
+#lewy{
+    background-color: #A26475;
+}
+img{
+    float: left;
+    width: 50px;
+}
+table,p,dd{
+    margin: 10px;
+}
+dd{
+    padding-top: 20px;
+}
+td,th{
+    border: 3px solid #824555;
+    padding: 5px;
+}
